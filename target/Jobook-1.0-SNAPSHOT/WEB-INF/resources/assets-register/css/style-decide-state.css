@@ -1,0 +1,93 @@
+
+body{
+    background: url("../../assets-register/images/galaxy.jpg");
+    background: #dc3443;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary.disabled,
+.btn-primary.disabled:hover {
+    color: #ffffff;
+    background-color: #5e9a28;
+    border-color: #5e9a28;
+}
+
+
+
+.btn {
+    display: inline-block;
+    min-width: 230px;
+    padding: .4em;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 1.875rem;
+    border-radius:0px;
+    margin-top: 20px;
+    background-color: transparent;
+    transition: .5s;
+    border:0px;
+    font-family: 'amblebold';
+
+}
+.btn:hover {
+    background-color: #fff;
+    color: #101010;
+    text-decoration: none;
+}
+
+.h2{
+    background: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #639d2f;
+    border-color: #fff;
+    transition: .5s;
+}
+
+.btn_news_color{
+    color:#5e9a28;
+    border-color: #5e9a28;
+}
+
+.btn-md{
+    border: 2px solid #000;
+    color: #222;
+    padding: 0.4rem 2rem;
+    height: 60px;
+}
+.btn-sm{
+    border: 2px solid #000;
+    color: #ffffff;
+    padding: 0.9rem;
+    height: 40px;
+    min-width:125px;
+    text-decoration: none;
+}
+
+.formreg{
+    margin: 250px;
+}
+
+.btn-larg{
+    border: 2px solid #fff;
+    color:#fff;
+    padding: 2rem 3rem;
+    max-width:430px;
+    height: 100px
+}
+
+

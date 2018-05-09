@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"><!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dmuseum.job_002dview_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.job_002dmuseum.job_002dview_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.cv_002dview.cv_002dform_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.cv_002dview.cv_002dform_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.talent_002dview.talent_002dview_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.talent_002dview.talent_002dview_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.cv_002dview_002dapp_002dform.cv_002dview_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.cv_002dview_002dapp_002dform.cv_002dview_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.login_002dview.login_002dview_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.login_002dview.login_002dview_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dmarket_002dview.job_002dmarket_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.job_002dmarket_002dview.job_002dmarket_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dform_002dview.job_002dform_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.job_002dform_002dview.job_002dform_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_002dem_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_002dem_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.no_002dcv_002derror_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.errors.no_002dcv_002derror_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployee_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployee_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployer_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployer_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.decide_002drole_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.view.register_002dview.decide_002drole_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.index_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dmuseum.job_002dview_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/job-museum/job-view.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.cv_002dview.cv_002dform_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/cv-view/cv-form.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.talent_002dview.talent_002dview_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/talent-view/talent-view.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.cv_002dview_002dapp_002dform.cv_002dview_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/cv-view-app-form/cv-view.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.login_002dview.login_002dview_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/login-view/login-view.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dmarket_002dview.job_002dmarket_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/job-market-view/job-market.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.job_002dform_002dview.job_002dform_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/job-form-view/job-form.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_002dem_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/errors/wrong-reg-type-em.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.no_002dcv_002derror_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/errors/no-cv-error.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.errors.wrong_002dreg_002dtype_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/errors/wrong-reg-type.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployee_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/register-view/register-view-employee.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/register-view/register-view.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.register_002dview_002demployer_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/register-view/register-view-employer.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.view.register_002dview.decide_002drole_jsp</servlet-name>
+        <url-pattern>/WEB-INF/view/register-view/decide-role.jsp</url-pattern>
+    </servlet-mapping>
+
+<!-- JSPC servlet mappings end -->
+
+</web-app>
